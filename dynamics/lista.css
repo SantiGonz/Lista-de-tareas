@@ -1,15 +1,32 @@
 body{
     background-color: azure;
 }
-div{
+#cuadrito{
     text-align: center;
     background-color: aquamarine;
-    width: 20%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
     padding: 10px 30px 30px 30px;
     border: 3px solid;
     border-radius:15% 15% 15% 15%;
     position: absolute;
-    left: 40%;
+    left: 30%;
     top: 5%;
+}
+#tarea{
+    position: relative;
+    width: 60%;
+}
+#otra{
+    position:relative;
+    width: 40%;
+}
+#despliegue{
+    position: relative;
+    display: none;
+    background-color: rgb(44, 144, 160);
+    border: 3px solid;
+}
+.boton{
+    background-color: rgb(68, 132, 230)
 }
